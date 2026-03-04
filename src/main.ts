@@ -15,10 +15,7 @@ import { Persistency } from './services/persistency';
 import { Product } from './classes/product';
 import { ShoppingCart } from './classes/shopping-cart';
 import { NoPercentDiscount } from './classes/discount';
-import {
-  EnterpriseCustomer,
-  IndividualCustomer,
-} from './classes/interfaces/custumer';
+import { EnterpriseCustomer, IndividualCustomer } from './classes/custumer';
 
 // const fiftyPercentDiscont = new FiftyPercentDiscount();
 // const tenPercentDiscont = new TenPercentDiscount();
